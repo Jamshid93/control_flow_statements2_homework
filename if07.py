@@ -24,6 +24,6 @@ def main(temp):
     elif temp>31 and temp<40:
         answer="Hot"
     elif temp>40:
-        answer="very hot"
+        answer="Very hot"
     return answer
-print(main(14))
+print(main(2))
