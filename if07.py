@@ -13,7 +13,7 @@ def main(temp):
     Returns:
         str: return answer.
     """
-    if temp<0:
+    if temp<=0:
         answer="Freezing"
     elif 1<=temp<=10:
         answer="Very Cold"
@@ -23,7 +23,7 @@ def main(temp):
         answer="Normal"
     elif 31<=temp<=40:
         answer="Hot"
-    elif temp>40:
+    elif temp>=40:
         answer="Very hot"
     return answer
 print(main(1))
