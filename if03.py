@@ -8,13 +8,11 @@ def main(a,b,c):
     Returns:
         int: return answer.
     """
-    if a<=b:
-        if a>=c:
-            answer=a
-    elif a<=b:
-        if b>=c:
-            answer=b
-        else:
-            answer=c
+    if a>=b and a<=c:
+        answer=a
+    elif a<=b and b<=c:
+        answer=b
+    else:
+        answer=c
     return answer
-print(main(3,7,1))
+print(main(3,7,10))
