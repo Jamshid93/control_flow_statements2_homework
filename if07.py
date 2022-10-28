@@ -15,15 +15,15 @@ def main(temp):
     """
     if temp<0:
         answer="Freezing"
-    elif temp>1 and temp<10:
+    elif temp>1 or temp<10:
         answer="Very Cold"
-    elif temp>11 and temp<20:
+    elif temp>11 or temp<20:
         answer="Cold"
-    elif temp>21 and temp<30:
+    elif temp>21 or temp<30:
         answer="Normal"
-    elif temp>31 and temp<40:
+    elif temp>31 or temp<40:
         answer="Hot"
     elif temp>40:
         answer="Very hot"
     return answer
-print(main(-2))
+print(main(2))
