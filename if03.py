@@ -11,10 +11,10 @@ def main(a,b,c):
     if a<=b:
         if a>=c:
             answer=a
-    elif a>=b:
-        if b<=c:
+    elif a<=b:
+        if b>=c:
             answer=b
         else:
             answer=c
     return answer
-print(main(5,5,-1))
+print(main(3,7,1))
