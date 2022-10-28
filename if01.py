@@ -16,4 +16,4 @@ def main(a,b,c):
         answer=b
     
     return answer
-print(main(-5,-3,-1))
+print(main(1,4,2))
